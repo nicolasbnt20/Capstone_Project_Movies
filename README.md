@@ -63,35 +63,4 @@ All navigation via embedded hamburger menu
 
 ## Project Structure
 
-capstone_project_movies/
-├── data/
-│ ├── raw/ # Original source data
-│ │ └── movies_metadata.csv
-│ └── processed/ # Cleaned and transformed datasets
-│ ├── df_clean.csv / .pkl
-│ ├── df_genres.csv / .pkl
-│ ├── df_companies.csv / .pkl
-│ └── df_countries.csv / .pkl
-├── notebooks/ # Jupyter notebooks for each phase of the workflow
-│ ├── 1_Data_Cleaning_EDA.ipynb
-│ ├── 2_Data_Analysis.ipynb
-│ ├── 3_Data_Statistical_Modeling.ipynb
-│ └── 4_Tableau_prep.ipynb
-├── src/ # Python scripts
-│ └── data_cleaning.py
-├── tableau/ # Tableau files and exports
-│ ├── Capstone_Project_Tableau.twbx
-│ ├── df_clean_export.csv
-│ ├── df_genres_export.csv
-│ ├── df_companies_export.csv
-│ └── df_countries_export.csv
-├── output/
-│ ├── figures/ # Static visuals for README and documentation
-│ │ ├── 1_dashboard_overview_industry.png
-│ │ ├── 2_dashboard_genre_strategy.png
-│ │ ├── 3_dashboard_companies_countries.png
-│ │ ├── budget_vs_revenue.png
-│ │ └── budget_vs_roi.png
-│ └── README.md
-├── requirements.txt # Python dependencies
-└── tests/ # (Reserved for future testing if needed)
+<pre><code> ## 📁 Project Structure ``` capstone_project_movies/ ├── data/ │ ├── raw/ # Original source data │ │ └── movies_metadata.csv │ └── processed/ # Cleaned and transformed datasets │ ├── df_clean.csv / .pkl │ ├── df_genres.csv / .pkl │ ├── df_companies.csv / .pkl │ └── df_countries.csv / .pkl ├── notebooks/ # Jupyter notebooks for each phase of the workflow │ ├── 1_Data_Cleaning_EDA.ipynb │ ├── 2_Data_Analysis.ipynb │ ├── 3_Data_Statistical_Modeling.ipynb │ └── 4_Tableau_prep.ipynb ├── src/ # Python scripts │ └── data_cleaning.py ├── tableau/ # Tableau files and exports │ ├── Capstone_Project_Tableau.twbx │ ├── df_clean_export.csv │ ├── df_genres_export.csv │ ├── df_companies_export.csv │ └── df_countries_export.csv ├── output/ │ ├── figures/ # Static visuals for README and documentation │ │ ├── 1_dashboard_overview_industry.png │ │ ├── 2_dashboard_genre_strategy.png │ │ ├── 3_dashboard_companies_countries.png │ │ ├── budget_vs_revenue.png │ │ └── budget_vs_roi.png │ └── README.md ├── requirements.txt # Python dependencies └── tests/ # (Reserved for future testing if needed) ``` </code></pre>
